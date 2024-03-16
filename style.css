@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+    
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #121212;
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.main-card {
+    max-width: 48rem;
+
+    background-color: #202020;
+
+    text-align: center;
+
+    border-radius: .5rem;
+    padding: 5rem 5.5rem 6rem 5.5rem;
+}
+
+.img svg {
+    color: white;
+
+    width: 4rem;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    text-align: center;
+
+    margin: 5rem 0 2rem 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+input {
+    width: 36rem;
+
+    padding: 2rem;
+    border-radius: .4rem;
+    border: 1px solid #656565;
+
+    background-color: #202020;
+    color: #656565;
+}
+
+button.continue {
+    width: 36rem;
+
+    padding: 2rem;
+    border-radius: .4rem;
+    border: none;
+    margin-bottom: 4rem;
+
+    font-size: 1.1rem;
+    font-weight: 900;
+    
+    background-color: rgb(16, 74, 130);
+    color: #979797;
+
+    cursor: pointer;
+}
+
+p {
+    color: #ffffffb8;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    line-height: 2rem;
+}
+
+a {
+    color: white;
+}
+
+img {
+    width: 3rem;
+}
+
+.others {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.others button{
+    border: none;
+    border-radius: .4rem;
+
+    padding: 1.4rem 2.4rem;
+    margin: .5rem;
+
+    cursor: pointer;
+}
+
+#xbox{
+    background-color: rgb(27, 138, 25);
+
+    transition: .2s;
+}
+#xbox:hover {
+    background-color: rgb(27, 138, 25, 0.75);
+}
+
+#play {
+    background-color: rgb(0, 55, 145);
+
+    transition: .2s;
+}
+#play:hover {
+    background-color: rgb(0, 55, 145, 0.75);
+}
+
+#nintendo {
+    background-color: rgb(233, 0, 0);
+
+    transition: .2s;
+}
+#nintendo:hover {
+    background-color: rgb(233, 0, 0, 0.75);
+}
+
+#steam {
+    background-color: rgb(20, 92, 143);
+
+    transition: .2s;
+}
+#steam:hover {
+    background-color: rgb(20, 92, 143, 0.75);
+}
+
+#face {
+    background-color: rgb(24, 119, 242);
+
+    transition: .2s;
+}
+#face:hover {
+    background-color: rgb(24, 119, 242, 0.75);
+}
+
+#google {
+    background-color: rgb(254, 253, 253);
+
+    transition: .2s;
+}
+#google:hover {
+    background-color: rgb(254, 253, 253, 0.75);
+}
+
+#apple{
+    background-color: rgb(255, 255, 255);
+
+    transition: .2s;
+} 
+#apple:hover {
+    background-color: rgb(255, 255, 255, 0.75);
+}
+
+#lego {
+    background-color: rgb(255, 212, 0);
+
+    transition: .2s;
+}
+#lego:hover {
+    background-color: rgb(255, 212, 0, 0.75);
+}
+
+.link:hover {
+    text-decoration: none;
+}
